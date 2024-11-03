@@ -13,8 +13,8 @@ import {
   RATE_LIMIT_TIME,
   URL_ENCODED,
   WEB_CACHE,
-} from "./src/config/config";
-import router from "./src/routes/api";
+} from "./src/config/config.js";
+import router from "./src/routes/api.js";
 fileUpload;
 const app = express();
 

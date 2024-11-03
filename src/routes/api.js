@@ -1,9 +1,9 @@
 import { Router } from "express";
-import BlogController from "../controller/BlogController";
+import BlogController from "../controller/BlogController.js";
 const router = Router();
 
 router.post("/create-blog", BlogController.createBlog);
 router.get("/read-blog", BlogController.readBlog);
 router.put("/update-blog", BlogController.updateBlog);
-router.delete("/read-blog", BlogController.deleteBlog);
+router.delete("/delete-blog", BlogController.deleteBlog);
 export default router;
